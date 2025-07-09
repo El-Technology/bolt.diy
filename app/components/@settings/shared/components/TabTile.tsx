@@ -112,30 +112,17 @@ export const TabTile: React.FC<TabTileProps> = ({
                   )}
                 </div>
 
-                {/* Update Indicator with Tooltip */}
+                {/* Status Message */}
+                {statusMessage && <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">{statusMessage}</div>}
+
+                {/* Update Indicator */}
                 {hasUpdate && (
-                  <>
-                    <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-blue-500 dark:bg-blue-400 animate-pulse" />
-                    <Tooltip.Portal>
-                      <Tooltip.Content
-                        className={classNames(
-                          'px-3 py-1.5 rounded-lg',
-                          'bg-[#18181B] text-white',
-                          'text-sm font-medium',
-                          'select-none',
-                          'z-[100]',
-                        )}
-                        side="top"
-                        sideOffset={5}
-                      >
-                        {statusMessage}
-                        <Tooltip.Arrow className="fill-[#18181B]" />
-                      </Tooltip.Content>
-                    </Tooltip.Portal>
-                  </>
+                  <div className="absolute top-3 right-3">
+                    <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                  </div>
                 )}
 
-                {/* Children (e.g. Beta Label) */}
+                {/* Children (e.g., Beta Label) */}
                 {children}
               </div>
             </div>

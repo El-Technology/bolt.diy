@@ -159,12 +159,12 @@ const NotificationsTab = () => {
   };
 
   const filterOptions: { id: FilterType; label: string; icon: string; color: string }[] = [
-    { id: 'all', label: 'All Notifications', icon: 'i-ph:bell', color: '#9333ea' },
+    { id: 'all', label: 'All Notifications', icon: 'i-ph:bell', color: '#1A5EEC' },
     { id: 'system', label: 'System', icon: 'i-ph:gear', color: '#6b7280' },
-    { id: 'update', label: 'Updates', icon: 'i-ph:arrow-circle-up', color: '#9333ea' },
+    { id: 'update', label: 'Updates', icon: 'i-ph:arrow-circle-up', color: '#1A5EEC' },
     { id: 'error', label: 'Errors', icon: 'i-ph:warning-circle', color: '#ef4444' },
     { id: 'warning', label: 'Warnings', icon: 'i-ph:warning', color: '#f59e0b' },
-    { id: 'info', label: 'Information', icon: 'i-ph:info', color: '#3b82f6' },
+    { id: 'info', label: 'Information', icon: 'i-ph:info', color: '#4786FF' },
     { id: 'provider', label: 'Providers', icon: 'i-ph:robot', color: '#10b981' },
     { id: 'network', label: 'Network', icon: 'i-ph:wifi-high', color: '#6366f1' },
   ];

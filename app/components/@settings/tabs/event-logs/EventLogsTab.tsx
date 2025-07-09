@@ -557,13 +557,13 @@ export function EventLogsTab() {
       const leftStats = [
         { label: 'Error Logs', value: stats.error, color: '#DC2626' },
         { label: 'Warning Logs', value: stats.warning, color: '#F59E0B' },
-        { label: 'Info Logs', value: stats.info, color: '#3B82F6' },
+        { label: 'Info Logs', value: stats.info, color: '#4786FF' },
       ];
 
       const rightStats = [
         { label: 'Debug Logs', value: stats.debug, color: '#6B7280' },
         { label: 'LLM Logs', value: stats.provider, color: '#10B981' },
-        { label: 'API Logs', value: stats.api, color: '#3B82F6' },
+        { label: 'API Logs', value: stats.api, color: '#4786FF' },
       ];
 
       const colWidth = (pageWidth - 2 * margin) / 2;
