@@ -55,3 +55,9 @@ netlify.toml
 .env.example
 
 
+builder.config.json
+
+sync-and-rebrand.sh
+
+
+
