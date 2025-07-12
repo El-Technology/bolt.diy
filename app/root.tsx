@@ -19,8 +19,8 @@ import 'virtual:uno.css';
 export const links: LinksFunction = () => [
   {
     rel: 'icon',
-    href: '/favicon.ico',
-    type: 'image/x-icon',
+    href: '/ellogy-logo.svg',
+    type: 'image/svg+xml',
   },
   { rel: 'stylesheet', href: reactToastifyStyles },
   { rel: 'stylesheet', href: tailwindReset },
